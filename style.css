@@ -1,0 +1,48 @@
+body {
+    background-color: purple;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.image{
+    border-radius: 200px;
+    height: 225px;
+    object-fit: cover;
+    margin-top: 5%;
+}
+
+.container{
+    border: 1px solid white;
+    width: 50%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.time-value{
+    font-size: 35px;
+    
+}
+
+.colon{
+    font-size: 50px;
+}
+
+.time-label{
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.subtext{
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
